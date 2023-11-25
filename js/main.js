@@ -12,6 +12,11 @@ function validatelogin() {
     if (username === "user" && password === "pass") {
         errorMessage.style.color = "grean";
         errorMessage.textContent = "Login successful!";
+
+        setTimeout(()=>{
+            window.location.href ='html/about-me.html'
+        });
+
     } else {
         errorMessage.style.color = "red";
         errorMessage.textContent = 

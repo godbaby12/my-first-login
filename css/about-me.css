@@ -1,0 +1,40 @@
+header {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEcqXjDMxnbTI6Kf9CgKIgm0eHSdwc9CwuA&usqp=CAU");
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul>li {
+    list-style: none;
+    font-size: 70px;
+}
+
+header li:hover {
+    text-decoration: underline;
+    color: rgb(0, 255, 238);
+}
+
+h2 {
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    gap: 52px;
+    height: 52px;
+}
+
+.information {
+    font-size: 24px;
+}
+.about-me {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
