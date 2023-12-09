@@ -1,8 +1,3 @@
-function buttonClick(age, lastname){
-    console.log(`My age is ${age}`);
-    console.warn(`My last name is ${lastname}`);
-    //  alert ('Hello World');
-}
 function validatelogin() {
     const username = document.getElementById("username").value
     const password = document.getElementById("password").value 
@@ -14,7 +9,7 @@ function validatelogin() {
         errorMessage.textContent = "Login successful!";
 
         setTimeout(()=>{
-            window.location.href ='html/about-me.html'
+            window.location.href ='/about-me.html'
         });
 
     } else {
