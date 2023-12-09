@@ -125,3 +125,8 @@ button:hover {
   -moz-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+
+.bg-cadetblue {
+  background-color: cadetblue;
+}
