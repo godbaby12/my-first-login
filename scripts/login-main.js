@@ -9,7 +9,8 @@ function validatelogin() {
         errorMessage.textContent = "Login successful!";
 
         setTimeout(()=>{
-            window.location.href ='/about-me.html'
+            // window.location.href =`${window.location.pathname}/about-me.html`
+            console.log(window.location)
         });
 
     } else {
