@@ -42,7 +42,7 @@ button:hover {
   left: 0;
   width: 0;
   height: 5px;
-  background-color: #37bc9b;
+  background-color: cadetblue;
   transition: width 0.3s ease;
   z-index: 1000;
 }
@@ -126,6 +126,10 @@ button:hover {
   transform: scaleX(1);
 }
 
+
+.bg-cadetblue {
+  background-color: cadetblue;
+}
 
 .bg-cadetblue {
   background-color: cadetblue;
